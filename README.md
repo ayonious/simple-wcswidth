@@ -2,7 +2,7 @@
 <h3 align="center"> 🖥️ 💬 Simplified JS/TS implementation of wcswidth() written by Markus Kuhn in C</h3>
 
 <p align="center">
-  <a href="https://travis-ci.com/ayonious/simple-wcswidth">
+  <a href="https://travis-ci.com/ayo nious/simple-wcswidth">
     <img alt="Build Status" src="https://travis-ci.com/ayonious/simple-wcswidth.svg?branch=master">
   </a>
   <a href="https://codecov.io/gh/ayonious/simple-wcswidth">
