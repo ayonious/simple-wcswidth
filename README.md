@@ -1,5 +1,5 @@
 <h1 align="center">simple-wcswidth</h1>
-<h3 align="center"> 🖥️ 🍭 Simplified JS/TS implementation of wcswidth() written by Markus Kuhn in C</h3>
+<h3 align="center"> 🖥️ 💬 Simplified JS/TS implementation of wcswidth() written by Markus Kuhn in C</h3>
 
 <p align="center">
   <a href="https://travis-ci.com/ayonious/simple-wcswidth">
