@@ -1,5 +1,5 @@
 <h1 align="center">simple-wcswidth</h1>
-<h3 align="center"> 🖥️ 💬 Simplified JS/TS implementation of wcswidth() written by Markus Kuhn in C</h3>
+<h3 align="center"> 🖥️ 💬 Simplified JS/TS implementation of wcwidth/wcswidth written by Markus Kuhn in C</h3>
 
 <p align="center">
   <a href="https://codecov.io/gh/ayonious/simple-wcswidth">
@@ -28,11 +28,13 @@
 # Example Usage
 
 ```js
-const { wcswidth } = require('simple-wcwidth');
+const { wcswidth, wcwidth } = require('simple-wcswidth');
 
 console.log(wcswidth('Yes 重要')); // 8
 console.log(wcswidth('请你')); // 4
 console.log(wcswidth('Hi')); // 2
+
+console.log(wcwidth('请'.charCodeAt(0))); // 2
 ```
 
 # What is simplified here?
